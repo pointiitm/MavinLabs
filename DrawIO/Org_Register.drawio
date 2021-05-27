@@ -1,11 +1,118 @@
-<mxfile host="app.diagrams.net" modified="2021-05-27T14:42:51.226Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="GouBJancPFYG_Pu-D983" version="14.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-27T16:53:11.856Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="6FXmocndHjPTzfkMs2Hr" version="14.7.2" type="github">
   <diagram id="KDQcKA7B1LpCayLsv_Jp" name="Page-1">
     <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="9TAYhXnPJmrQeut2cDQu-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="250" width="120" height="60" as="geometry" />
+        <mxCell id="9TAYhXnPJmrQeut2cDQu-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9TAYhXnPJmrQeut2cDQu-1" target="9TAYhXnPJmrQeut2cDQu-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9TAYhXnPJmrQeut2cDQu-1" value="create campaign (campaign_bean)" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFE6CC;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="15" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9TAYhXnPJmrQeut2cDQu-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9TAYhXnPJmrQeut2cDQu-7" target="9TAYhXnPJmrQeut2cDQu-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9TAYhXnPJmrQeut2cDQu-7" value="valid user id-org id combination?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="10" y="110" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9TAYhXnPJmrQeut2cDQu-8" value="valid city based on subscription?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="15" y="230" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="9TAYhXnPJmrQeut2cDQu-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9TAYhXnPJmrQeut2cDQu-13" target="9TAYhXnPJmrQeut2cDQu-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9TAYhXnPJmrQeut2cDQu-13" value="update campaign (campaign_id, campaign_bean)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;labelBackgroundColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="235" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9TAYhXnPJmrQeut2cDQu-16" value="valid city based on subscription?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="235" y="280" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="9TAYhXnPJmrQeut2cDQu-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9TAYhXnPJmrQeut2cDQu-17" target="9TAYhXnPJmrQeut2cDQu-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9TAYhXnPJmrQeut2cDQu-17" value="valid user_id-campaign_id combination (edit rights check - admin, creator, edit shared)?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="200" y="120" width="190" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="9TAYhXnPJmrQeut2cDQu-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9TAYhXnPJmrQeut2cDQu-21" target="9TAYhXnPJmrQeut2cDQu-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9TAYhXnPJmrQeut2cDQu-21" value="archive campaign (campaign_id)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;labelBackgroundColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="430" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9TAYhXnPJmrQeut2cDQu-22" value="valid campaign status?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="430" y="260" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="9TAYhXnPJmrQeut2cDQu-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9TAYhXnPJmrQeut2cDQu-24" target="9TAYhXnPJmrQeut2cDQu-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="495" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9TAYhXnPJmrQeut2cDQu-24" value="valid user_id-campaign_id combination&lt;br&gt;(creator&amp;nbsp; / admin check)?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="395" y="120" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9TAYhXnPJmrQeut2cDQu-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9TAYhXnPJmrQeut2cDQu-26" target="9TAYhXnPJmrQeut2cDQu-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9TAYhXnPJmrQeut2cDQu-26" value="restore campaign (campaign_id)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;labelBackgroundColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="615" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9TAYhXnPJmrQeut2cDQu-27" value="valid campaign status?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="615" y="280" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="9TAYhXnPJmrQeut2cDQu-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="9TAYhXnPJmrQeut2cDQu-29" target="9TAYhXnPJmrQeut2cDQu-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9TAYhXnPJmrQeut2cDQu-29" value="valid user_id-campaign_id combination &lt;br&gt;(creator&amp;nbsp; / admin check)?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="580" y="110" width="190" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="9TAYhXnPJmrQeut2cDQu-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9TAYhXnPJmrQeut2cDQu-34" target="9TAYhXnPJmrQeut2cDQu-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9TAYhXnPJmrQeut2cDQu-34" value="search campaign&lt;br&gt;(user_id, from, to, page, isArchived, isShared)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="240" y="470" width="155" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9TAYhXnPJmrQeut2cDQu-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="9TAYhXnPJmrQeut2cDQu-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="630" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9TAYhXnPJmrQeut2cDQu-45" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9TAYhXnPJmrQeut2cDQu-44">
+          <mxGeometry x="0.3037" y="-4" relative="1" as="geometry">
+            <mxPoint x="-2" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9TAYhXnPJmrQeut2cDQu-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9TAYhXnPJmrQeut2cDQu-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9TAYhXnPJmrQeut2cDQu-50" value="return cam DTOs created by user or admin&lt;br&gt;&amp;nbsp;(where from, to, page, isArchived, isShared&lt;br&gt;)" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#6c8ebf;fillColor=#dae8fc;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="222.5" y="580" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9TAYhXnPJmrQeut2cDQu-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="9TAYhXnPJmrQeut2cDQu-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="590" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9TAYhXnPJmrQeut2cDQu-60" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9TAYhXnPJmrQeut2cDQu-59">
+          <mxGeometry x="-0.4125" y="-2" relative="1" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9TAYhXnPJmrQeut2cDQu-63" value="return cam DTOs - org_id&lt;br&gt;&amp;nbsp;(where from, to, page, isArchived, isShared&lt;br&gt;)" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#6c8ebf;fillColor=#dae8fc;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="580" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9TAYhXnPJmrQeut2cDQu-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9TAYhXnPJmrQeut2cDQu-64" target="9TAYhXnPJmrQeut2cDQu-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9TAYhXnPJmrQeut2cDQu-64" value="search campaign&lt;br&gt;{org_id, from, to, page, isArchived}" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="477.5" y="470" width="155" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9TAYhXnPJmrQeut2cDQu-66" value="findByCampaignID&lt;br&gt;(campaign_id)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="45" y="470" width="155" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
